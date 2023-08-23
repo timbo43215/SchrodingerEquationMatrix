@@ -2,16 +2,33 @@
 //  SchrodingerEquationMatrixApp.swift
 //  SchrodingerEquationMatrix
 //
-//  Created by IIT PHYS 440 on 8/23/23.
+//  Created by Tim Stack on 8/23/23.
 //
 
 import SwiftUI
 
 @main
 struct SchrodingerEquationMatrixApp: App {
+    @StateObject var plotData = PlotClass()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                ContentView()
+                    .environmentObject(plotData)
+                    .tabItem {
+                        Text("Plot")
+                    }
+                TextView()
+                    .environmentObject(plotData)
+                    .tabItem {
+                        Text("Text")
+                    }
+                            
+                            
+            }
+            
         }
     }
+
 }
