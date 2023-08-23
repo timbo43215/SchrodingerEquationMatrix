@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB6F0CAB2A96B882000A8350 /* SchrodingerEquationMatrixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F0CAA2A96B882000A8350 /* SchrodingerEquationMatrixApp.swift */; };
+		AB6F0CAD2A96B882000A8350 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F0CAC2A96B882000A8350 /* ContentView.swift */; };
+		AB6F0CAF2A96B882000A8350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6F0CAE2A96B882000A8350 /* Assets.xcassets */; };
+		AB6F0CB22A96B882000A8350 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6F0CB12A96B882000A8350 /* Preview Assets.xcassets */; };
+		AB6F0CBD2A96B882000A8350 /* SchrodingerEquationMatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F0CBC2A96B882000A8350 /* SchrodingerEquationMatrixTests.swift */; };
+		AB6F0CC72A96B882000A8350 /* SchrodingerEquationMatrixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F0CC62A96B882000A8350 /* SchrodingerEquationMatrixUITests.swift */; };
+		AB6F0CC92A96B882000A8350 /* SchrodingerEquationMatrixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6F0CC82A96B882000A8350 /* SchrodingerEquationMatrixUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB6F0CB92A96B882000A8350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6F0C9F2A96B882000A8350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6F0CA62A96B882000A8350;
+			remoteInfo = SchrodingerEquationMatrix;
+		};
+		AB6F0CC32A96B882000A8350 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB6F0C9F2A96B882000A8350 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6F0CA62A96B882000A8350;
+			remoteInfo = SchrodingerEquationMatrix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB6F0CA72A96B882000A8350 /* SchrodingerEquationMatrix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SchrodingerEquationMatrix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6F0CAA2A96B882000A8350 /* SchrodingerEquationMatrixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodingerEquationMatrixApp.swift; sourceTree = "<group>"; };
+		AB6F0CAC2A96B882000A8350 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB6F0CAE2A96B882000A8350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB6F0CB12A96B882000A8350 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB6F0CB32A96B882000A8350 /* SchrodingerEquationMatrix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SchrodingerEquationMatrix.entitlements; sourceTree = "<group>"; };
+		AB6F0CB82A96B882000A8350 /* SchrodingerEquationMatrixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchrodingerEquationMatrixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6F0CBC2A96B882000A8350 /* SchrodingerEquationMatrixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodingerEquationMatrixTests.swift; sourceTree = "<group>"; };
+		AB6F0CC22A96B882000A8350 /* SchrodingerEquationMatrixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchrodingerEquationMatrixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6F0CC62A96B882000A8350 /* SchrodingerEquationMatrixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodingerEquationMatrixUITests.swift; sourceTree = "<group>"; };
+		AB6F0CC82A96B882000A8350 /* SchrodingerEquationMatrixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchrodingerEquationMatrixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB6F0CA42A96B882000A8350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6F0CB52A96B882000A8350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6F0CBF2A96B882000A8350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB6F0C9E2A96B882000A8350 = {
+			isa = PBXGroup;
+			children = (
+				AB6F0CA92A96B882000A8350 /* SchrodingerEquationMatrix */,
+				AB6F0CBB2A96B882000A8350 /* SchrodingerEquationMatrixTests */,
+				AB6F0CC52A96B882000A8350 /* SchrodingerEquationMatrixUITests */,
+				AB6F0CA82A96B882000A8350 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB6F0CA82A96B882000A8350 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB6F0CA72A96B882000A8350 /* SchrodingerEquationMatrix.app */,
+				AB6F0CB82A96B882000A8350 /* SchrodingerEquationMatrixTests.xctest */,
+				AB6F0CC22A96B882000A8350 /* SchrodingerEquationMatrixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB6F0CA92A96B882000A8350 /* SchrodingerEquationMatrix */ = {
+			isa = PBXGroup;
+			children = (
+				AB6F0CAA2A96B882000A8350 /* SchrodingerEquationMatrixApp.swift */,
+				AB6F0CAC2A96B882000A8350 /* ContentView.swift */,
+				AB6F0CAE2A96B882000A8350 /* Assets.xcassets */,
+				AB6F0CB32A96B882000A8350 /* SchrodingerEquationMatrix.entitlements */,
+				AB6F0CB02A96B882000A8350 /* Preview Content */,
+			);
+			path = SchrodingerEquationMatrix;
+			sourceTree = "<group>";
+		};
+		AB6F0CB02A96B882000A8350 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB6F0CB12A96B882000A8350 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB6F0CBB2A96B882000A8350 /* SchrodingerEquationMatrixTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB6F0CBC2A96B882000A8350 /* SchrodingerEquationMatrixTests.swift */,
+			);
+			path = SchrodingerEquationMatrixTests;
+			sourceTree = "<group>";
+		};
+		AB6F0CC52A96B882000A8350 /* SchrodingerEquationMatrixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB6F0CC62A96B882000A8350 /* SchrodingerEquationMatrixUITests.swift */,
+				AB6F0CC82A96B882000A8350 /* SchrodingerEquationMatrixUITestsLaunchTests.swift */,
+			);
+			path = SchrodingerEquationMatrixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB6F0CA62A96B882000A8350 /* SchrodingerEquationMatrix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6F0CCC2A96B882000A8350 /* Build configuration list for PBXNativeTarget "SchrodingerEquationMatrix" */;
+			buildPhases = (
+				AB6F0CA32A96B882000A8350 /* Sources */,
+				AB6F0CA42A96B882000A8350 /* Frameworks */,
+				AB6F0CA52A96B882000A8350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SchrodingerEquationMatrix;
+			productName = SchrodingerEquationMatrix;
+			productReference = AB6F0CA72A96B882000A8350 /* SchrodingerEquationMatrix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB6F0CB72A96B882000A8350 /* SchrodingerEquationMatrixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6F0CCF2A96B882000A8350 /* Build configuration list for PBXNativeTarget "SchrodingerEquationMatrixTests" */;
+			buildPhases = (
+				AB6F0CB42A96B882000A8350 /* Sources */,
+				AB6F0CB52A96B882000A8350 /* Frameworks */,
+				AB6F0CB62A96B882000A8350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6F0CBA2A96B882000A8350 /* PBXTargetDependency */,
+			);
+			name = SchrodingerEquationMatrixTests;
+			productName = SchrodingerEquationMatrixTests;
+			productReference = AB6F0CB82A96B882000A8350 /* SchrodingerEquationMatrixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB6F0CC12A96B882000A8350 /* SchrodingerEquationMatrixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB6F0CD22A96B882000A8350 /* Build configuration list for PBXNativeTarget "SchrodingerEquationMatrixUITests" */;
+			buildPhases = (
+				AB6F0CBE2A96B882000A8350 /* Sources */,
+				AB6F0CBF2A96B882000A8350 /* Frameworks */,
+				AB6F0CC02A96B882000A8350 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB6F0CC42A96B882000A8350 /* PBXTargetDependency */,
+			);
+			name = SchrodingerEquationMatrixUITests;
+			productName = SchrodingerEquationMatrixUITests;
+			productReference = AB6F0CC22A96B882000A8350 /* SchrodingerEquationMatrixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB6F0C9F2A96B882000A8350 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AB6F0CA62A96B882000A8350 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					AB6F0CB72A96B882000A8350 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AB6F0CA62A96B882000A8350;
+					};
+					AB6F0CC12A96B882000A8350 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AB6F0CA62A96B882000A8350;
+					};
+				};
+			};
+			buildConfigurationList = AB6F0CA22A96B882000A8350 /* Build configuration list for PBXProject "SchrodingerEquationMatrix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB6F0C9E2A96B882000A8350;
+			productRefGroup = AB6F0CA82A96B882000A8350 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB6F0CA62A96B882000A8350 /* SchrodingerEquationMatrix */,
+				AB6F0CB72A96B882000A8350 /* SchrodingerEquationMatrixTests */,
+				AB6F0CC12A96B882000A8350 /* SchrodingerEquationMatrixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB6F0CA52A96B882000A8350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6F0CB22A96B882000A8350 /* Preview Assets.xcassets in Resources */,
+				AB6F0CAF2A96B882000A8350 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6F0CB62A96B882000A8350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6F0CC02A96B882000A8350 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB6F0CA32A96B882000A8350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6F0CAD2A96B882000A8350 /* ContentView.swift in Sources */,
+				AB6F0CAB2A96B882000A8350 /* SchrodingerEquationMatrixApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6F0CB42A96B882000A8350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6F0CBD2A96B882000A8350 /* SchrodingerEquationMatrixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB6F0CBE2A96B882000A8350 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6F0CC92A96B882000A8350 /* SchrodingerEquationMatrixUITestsLaunchTests.swift in Sources */,
+				AB6F0CC72A96B882000A8350 /* SchrodingerEquationMatrixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB6F0CBA2A96B882000A8350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6F0CA62A96B882000A8350 /* SchrodingerEquationMatrix */;
+			targetProxy = AB6F0CB92A96B882000A8350 /* PBXContainerItemProxy */;
+		};
+		AB6F0CC42A96B882000A8350 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6F0CA62A96B882000A8350 /* SchrodingerEquationMatrix */;
+			targetProxy = AB6F0CC32A96B882000A8350 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB6F0CCA2A96B882000A8350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB6F0CCB2A96B882000A8350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		AB6F0CCD2A96B882000A8350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SchrodingerEquationMatrix/SchrodingerEquationMatrix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchrodingerEquationMatrix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SchrodingerEquationMatrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB6F0CCE2A96B882000A8350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SchrodingerEquationMatrix/SchrodingerEquationMatrix.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SchrodingerEquationMatrix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SchrodingerEquationMatrix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB6F0CD02A96B882000A8350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SchrodingerEquationMatrixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchrodingerEquationMatrix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SchrodingerEquationMatrix";
+			};
+			name = Debug;
+		};
+		AB6F0CD12A96B882000A8350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SchrodingerEquationMatrixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SchrodingerEquationMatrix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SchrodingerEquationMatrix";
+			};
+			name = Release;
+		};
+		AB6F0CD32A96B882000A8350 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SchrodingerEquationMatrixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SchrodingerEquationMatrix;
+			};
+			name = Debug;
+		};
+		AB6F0CD42A96B882000A8350 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TS.SchrodingerEquationMatrixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SchrodingerEquationMatrix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB6F0CA22A96B882000A8350 /* Build configuration list for PBXProject "SchrodingerEquationMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6F0CCA2A96B882000A8350 /* Debug */,
+				AB6F0CCB2A96B882000A8350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6F0CCC2A96B882000A8350 /* Build configuration list for PBXNativeTarget "SchrodingerEquationMatrix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6F0CCD2A96B882000A8350 /* Debug */,
+				AB6F0CCE2A96B882000A8350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6F0CCF2A96B882000A8350 /* Build configuration list for PBXNativeTarget "SchrodingerEquationMatrixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6F0CD02A96B882000A8350 /* Debug */,
+				AB6F0CD12A96B882000A8350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB6F0CD22A96B882000A8350 /* Build configuration list for PBXNativeTarget "SchrodingerEquationMatrixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB6F0CD32A96B882000A8350 /* Debug */,
+				AB6F0CD42A96B882000A8350 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB6F0C9F2A96B882000A8350 /* Project object */;
+}
